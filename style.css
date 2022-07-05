@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > * {
+  margin: 1px;
+  font-size: 20px;
+}
+
+#intro {
+  background-image: url("./assets/intro4.gif");
+  background-size: contain;
+  background-size: cover;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  font-family: Quicksand;
+}
+
+.alert {
+  font-family: Quicksand;
+  width: 50%;
+  height: flex;
+  
+  left: 0;
+  right: 0;
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 30px;
+  position: fixed;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.close {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  opacity: 0.5;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50%;
+  right: 15px;
+  top: 25px;
+  text-align: center;
+  font-size: 1.6em;
+  cursor: pointer;
+}
+
+.simple-alert {
+  background-color: #ebebeb;
+}
+.simple-alert .close {
+  border-color: #6c6c6c;
+  color: #6c6c6c;
+}
+
+.success-alert {
+  background-color: #a8f0c6;
+  border-left: 5px solid #178344;
+}
+.success-alert .close {
+  border-color: #178344;
+  color: #178344;
+}
+
+.danger-alert {
+  background-color: #f7a7a3;
+  border-left: 5px solid #8f130c;
+}
+.danger-alert .close {
+  border-color: #8f130c;
+  color: #8f130c;
+}
+
+.warning-alert {
+  background-color: #ffd48a;
+  border-left: 5px solid #8a5700;
+}
+.warning-alert .close {
+  border-color: #8a5700;
+  color: #8a5700;
+}

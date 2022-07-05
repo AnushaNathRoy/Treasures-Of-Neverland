@@ -1,0 +1,11 @@
+Model Information:
+* title:	#TreasureChestChallenge Treasure Chest
+* source:	https://sketchfab.com/3d-models/treasurechestchallenge-treasure-chest-2bdc108b8f61486099e2275a3e3a9ad2
+* author:	Murat Can ÜNAL (https://sketchfab.com/nmuratcan)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "#TreasureChestChallenge Treasure Chest" (https://sketchfab.com/3d-models/treasurechestchallenge-treasure-chest-2bdc108b8f61486099e2275a3e3a9ad2) by Murat Can ÜNAL (https://sketchfab.com/nmuratcan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

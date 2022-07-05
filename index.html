@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./assets/treasure.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Treasures of Neverland</title>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://fonts.googleapis.com/css?family=Quicksand&display=swap"></script>
+  </head>
+  <body>
+    <audio id="myAudio" src="./assets/poc.mp3"></audio>
+    <div class="alert simple-alert" id="info" style="display: none">
+      <h3><b>INSTRUCTIONS</b></h3>
+      <br>
+      <br>
+        <b>CONTROLS</b>
+        <br>
+        <br>
+        Use <b>WASD</b> to move around. 
+        <br>
+        Use the mouse to look around.
+        <br>
+        Use <b>V</b> to toggle view mode.
+        <br>
+        Use <b>X</b> to shoot cannonballs.
+        <br>
+        Use <b>SpaceBar</b> to pause the game.
+        <br>
+        Use <b>I</b> to show instructions.
+      
+      <br>
+      <br>
+      <b>POINTS</b>
+      <br>
+        <br>
+        The aim is to collect all treasures. 
+        <br>
+        Earn points by collecting chests (5 points) and treasures (10 points).
+        <br>
+        Earn kill points by drowning the pirate ships (20 points).
+        <br>
+        Getting hit by cannonballs will cost you health.
+        <br>
+        You lose the game if your health reaches 0.
+        <br>
+        You win the game if you collect all treasures.
+        <br>
+        <br>
+        <b>Happy Treasure Hunting!</b>
+      <a class="close">&times;</a>
+    </div>
+    <div class="alert simple-alert" id="win" style="display: none">
+      <h3>GAME WON!</h3>
+      <br>
+      <br>
+      You have defeated Captain Hook's Goons and saved Neverland's precious treasures!
+    </div>
+    <div class="alert simple-alert" id="lost" style="display: none">
+      <h3>GAME LOST</h3>
+      <br>
+      <br>
+      Captain Hook's Goons have taken over the ship! You have been captured :(
+    </div>
+    <div id="app" style="display: none">
+      <div
+        class="flex-container"
+        id="GameControls"
+        style="background: transparent; position: sticky"
+      >
+        <button
+          id="playb"
+          style="margin: 0px; padding: 0px; border: 0px; display: none"
+          onclick="enableAudio()"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        <button
+          id="pauseb"
+          style="margin: 0px; padding: 0px; border: 0px"
+          onclick="disableAudio()"
+        >
+          <i class="fas fa-volume-mute"></i>
+        </button>
+        -    -
+        <button
+          id="viewb"
+          style="margin: 2px; padding: 2px; border: 0px"
+        >
+          <i class="fas fa-info"></i>
+        </button>
+
+        <div style="position: absolute; right: 10px">
+          x-- Health: <span id="health"></span> -- Chests:
+          <span id="scoreB"></span> -- Treasures: <span id="scoreD"></span> --
+          Kills: <span id="kills"></span> -- Score: <span id="score"></span> --x
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+    <script src="/controls.js"></script>
+  </body>
+</html>
