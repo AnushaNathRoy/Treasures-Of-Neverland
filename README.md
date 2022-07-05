@@ -1,10 +1,11 @@
 # Treasures-Of-Neverland
 A 3D adventure game using Three.js and WebGL. Navigate the seas of Neverland escaping Captain Hook's goons and collecting the lost treasures on the sea! Happy Sailing :)
 
+![intro4](https://user-images.githubusercontent.com/71231079/177298296-8b7fd62f-6777-4d01-bc61-5753dfaafc49.gif)
 
 https://user-images.githubusercontent.com/71231079/177298221-07044ccb-99d9-4b48-8c1c-7ca24853940c.mov
 
-![intro4](https://user-images.githubusercontent.com/71231079/177298296-8b7fd62f-6777-4d01-bc61-5753dfaafc49.gif)
+
 
 
 
